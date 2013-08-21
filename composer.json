@@ -15,6 +15,6 @@
         "class": "Cyantree\\Grout\\Composer\\ModuleInstaller"
     },
     "require": {
-        "cyantree/grout": "0.0.*",
+        "cyantree/grout": "0.0.*"
     }
 }
