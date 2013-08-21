@@ -8,7 +8,8 @@ class ModuleInstaller extends LibraryInstaller
 {
     public function getInstallPath(PackageInterface $package)
     {
-        return 'modules/';
+        $extra = $package->getExtra();
+        return 'modules/'.$extra['grout-module-name'].'/';
     }
 
     public function supports($type)
