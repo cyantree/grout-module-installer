@@ -4,7 +4,7 @@
     "description": "Installer for grout modules",
     "keywords": ["grout", "module", "installer"],
     "homepage": "https://github.com/cyantree/grout-module-installer",
-    "license": "LGPLv3",
+    "license": "LGPL-3.0",
     "authors": [
         {"name": "Christoph Schreiber", "email": "mail@cyantree.com"}
     ],
@@ -13,5 +13,8 @@
     },
     "extra": {
         "class": "Cyantree\\Grout\\Composer\\ModuleInstaller"
+    },
+    "require": {
+        "cyantree/grout": "0.0.*",
     }
 }
