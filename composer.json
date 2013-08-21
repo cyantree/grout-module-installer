@@ -1,0 +1,18 @@
+{
+    "name": "cyantree/grout-module-installer",
+    "type": "composer-installer",
+    "version": "0.0.1",
+    "description": "Installer for grout modules",
+    "keywords": ["grout", "module", "installer"],
+    "homepage": "https://github.com/cyantree/grout-module-installer",
+    "license": "LGPLv3",
+    "authors": [
+        {"name": "Christoph Schreiber", "email": "mail@cyantree.com"}
+    ],
+    "autoload": {
+        "psr-0": { "Cyantree\\Grout": "" }
+    },
+    "extra": {
+        "class": "Cyantree\\Grout\\Composer\\ModuleInstaller"
+    }
+}
