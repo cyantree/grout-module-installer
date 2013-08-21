@@ -1,7 +1,6 @@
 {
     "name": "cyantree/grout-module-installer",
     "type": "composer-installer",
-    "version": "0.0.1",
     "description": "Installer for grout modules",
     "keywords": ["grout", "module", "installer"],
     "homepage": "https://github.com/cyantree/grout-module-installer",
